@@ -1,78 +1,55 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        tonysanjaya.me
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <div class="bg-gray-500 rounded-lg">
+      <div
+        class="bg-80-pink text-white p-8 rounded-lg font-mono transform rotate-2 hover:rotate-0 shadow-offset-black mb-16"
+      >
+        <p>
+          I am Tony, a web developer and a dad, devdad, from Indonesia. I have
+          been a professional web developer since 2012.
+        </p>
+        <p>
+          Since then, I have built many kinds of websites, and focus more on
+          WordPress. WordPress theme, plugin, maintenance, anything related to
+          WordPress, you name it.
+        </p>
+      </div>
+    </div>
+    <div class="bg-gray-500 rounded-lg">
+      <div
+        class="bg-80-purple text-white p-8 rounded-lg font-mono transform -rotate-1 hover:rotate-0 shadow-offset-black mb-16"
+      >
+        <p>
+          I am Tony, a web developer and a dad, devdad, from Indonesia. I have
+          been a professional web developer since 2012.
+        </p>
+        <p>
+          Since then, I have built many kinds of websites, and focus more on
+          WordPress. WordPress theme, plugin, maintenance, anything related to
+          WordPress, you name it.
+        </p>
+      </div>
+    </div>
+    <div class="bg-gray-500 rounded-lg">
+      <div
+        class=" bg-80-yellow text-black p-8 rounded-lg font-mono transform rotate-1 hover:rotate-0 shadow-offset-black"
+      >
+        <p>
+          I am Tony, a web developer and a dad, devdad, from Indonesia. I have
+          been a professional web developer since 2012.
+        </p>
+        <p>
+          Since then, I have built many kinds of websites, and focus more on
+          WordPress. WordPress theme, plugin, maintenance, anything related to
+          WordPress, you name it.
+        </p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: "home"
+};
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
