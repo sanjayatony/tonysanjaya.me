@@ -12,11 +12,9 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nanum+Pen+Script&family=IBM+Plex+Mono&family=Gravitas+One&display=swap"
+        href: "https://use.typekit.net/kph4cvz.css"
       }
     ]
   },

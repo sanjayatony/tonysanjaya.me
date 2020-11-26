@@ -8,19 +8,24 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
-      head: ["Gravitas One", "cursive"],
-      display: ["Nanum Pen Script", "cursive"],
-      mono: ["IBM Plex Mono", "monospace"]
+      head: ["rift", "sans-serif"],
+      mono: ["code-saver", "monospace"],
+      bit: ["lores-12", "sans-serif"],
+      bitwide: ["lores-9-plus-wide", "sans-serif"]
     },
     extend: {
       colors: {
-        hotpink: "#ff269e",
         80: {
-          pink: "#ff48c4",
+          hotpink: "#ff269e",
+          pink: "#ee2e93",
           cyan: "#2bd1fc",
           yellow: "#f3ea5f",
-          purple: "#c04df9",
-          red: "#ff3f3f"
+          purple: {
+            neon: "#d430e5",
+            st: "#9f00fd"
+          },
+          red: "#ff3f3f",
+          darkblue: "#000025"
         }
       }
     }

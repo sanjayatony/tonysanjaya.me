@@ -1,6 +1,8 @@
 <template>
-  <div class="">
-    <h1 class="text-black text-5xl mb-6 font-head">
+  <div class="py-4">
+    <h1
+      class="text-6xl font-bitwide text-center font-bold uppercase text-80-hotpink"
+    >
       Tony Sanjaya
     </h1>
   </div>
