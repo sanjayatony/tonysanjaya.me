@@ -2,7 +2,7 @@
 title: Indonesia Today
 date: 2019-12-06
 excerpt: I see this country as I see Gotham. Where everything is corrupt. You need insiders to make things work, money to make things faster, etc.
-tag:
+tags:
   - life
 ---
 

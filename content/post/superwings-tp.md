@@ -2,7 +2,7 @@
 title: Watched Superwings Show
 date: 2018-03-06
 excerpt: We got free ticket to watch Superwings show at Tunjungan. Yes free, who doesn't like it? There will be Superwings character dancing and photo session.
-tag:
+tags:
   - Nauly
   - Superwings
 ---

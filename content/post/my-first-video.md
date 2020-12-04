@@ -2,7 +2,7 @@
 title: My First Video
 date: 2017-12-16
 excerpt: This is my first video. I took all of the footages using my only camera, a5000. All the edit using Final Cut Pro X. I know this is not as good as video I watched on Youtube.
-tag:
+tags:
   - life
 ---
 

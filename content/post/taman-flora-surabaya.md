@@ -2,7 +2,7 @@
 title: Taman Flora Surabaya
 date: 2018-02-08
 excerpt: Weekend minggu lalu, kita mencoba hal yang berbeda. Mencoba mengenalkan Nauly lebih dekat ke binatang. Di Surabaya tidak banyak tempat seperti itu. Ada Bonbin Surabaya, yang katanya tak terawat dan pasti akan ramai. Satu-satunya pilihan adalah Taman Flora.
-tag:
+tags:
   - Taman Flora
   - Nauly
 ---

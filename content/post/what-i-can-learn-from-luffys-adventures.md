@@ -19,8 +19,8 @@ For the last, maybe, 6 months I started One Piece marathon. I watched it from Fi
 - Mr. 2 (my favorite), help Luffy escape from Impel Down. Even he sacrifices himself to let Luffy go, and remember how he encourages Luffy to get better after got poison from Magellan. T_T. Mr. 2 was a bad guy from Baroque Works.
 - Vinsmokes, they help Luffy from Big Mom. Vinsmokes are Sanji’s family.
 
-<div class="embed-responsive aspect-ratio-16/9">
-  <iframe  class="embed-responsive-item" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ajdiAy-GU1w?feature=oembed" title="One Piece - Bon Clay (Mr.2) Sacrifice Himself For Luffy (Second Time) Eng Dub" ></iframe>
+<div class="embed">
+  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/ajdiAy-GU1w?feature=oembed" title="One Piece - Bon Clay (Mr.2) Sacrifice Himself For Luffy (Second Time) Eng Dub" ></iframe>
 </div>
 
 Watching One Piece makes my mind-blowing sometimes. Everything connected.
@@ -43,6 +43,6 @@ Whatever are you doing right now, even the small one, just do it with pride. We 
 
 If you don’t get what I am talking about, Pandji has a better explanation.
 
-<div class="embed-responsive aspect-ratio-16/9">
-<iframe class="embed-responsive-item" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/5M0i6Fbe-q8?feature=oembed" title="5 MENIT YG MENGUBAH HIDUP" width="625"></iframe>
+<div class="embed">
+<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="352" src="https://www.youtube.com/embed/5M0i6Fbe-q8?feature=oembed" title="5 MENIT YG MENGUBAH HIDUP" width="625"></iframe>
 </div>
