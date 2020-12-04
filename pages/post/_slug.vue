@@ -3,9 +3,13 @@
     <article class="prose">
       <h1>{{ post.title }}</h1>
       <nuxt-content :document="post" />
-      <div class="text-xs font-mono text-80-cyan mt-10">
-        {{ formatDate(post.date) }} -
-        <span v-for="tag in post.tags" :key="tag">
+      <div class="text-xs font-mono text-80-cyan mt-10 uppercase">
+        {{ formatDate(post.date) }} /
+        <span
+          v-for="tag in post.tags"
+          :key="tag"
+          class="bg-80-cyan text-black mr-2"
+        >
           {{ tag }}
         </span>
       </div>
