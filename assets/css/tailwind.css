@@ -16,6 +16,19 @@
   .retro-text-shadow-2 {
     text-shadow: 3px 3px 83px #d430e5, 6px 8px 0 #9f00fd;
   }
+  .prose h1 {
+    @apply text-80-hotpink font-head italic;
+  }
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    @apply text-white font-head italic;
+  }
+  .prose p,
+  .prose li {
+    @apply text-white font-mono;
+  }
+
   .embed {
     position: relative;
     overflow: hidden;
