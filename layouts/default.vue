@@ -20,7 +20,8 @@
       <path d="M1125.64,318.69h-593" fill="none" stroke="#513068"></path>
       <path d="M1208.64,270.69h-756" fill="none" stroke="#513068"></path>
     </svg>
-    <div class="max-w-2xl mx-auto p-4 z-10 relative py-16">
+    <div class="max-w-2xl mx-auto p-4 z-10 relative">
+      <PostHeader />
       <Nuxt />
       <Footer />
     </div>
