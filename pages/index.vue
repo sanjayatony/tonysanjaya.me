@@ -91,7 +91,6 @@ export default {
     const posts = await $content("post")
       .sortBy("date", "desc")
       .fetch();
-    //console.log(posts);
     return { posts };
   },
   methods: {
