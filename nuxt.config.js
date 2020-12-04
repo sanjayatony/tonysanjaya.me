@@ -11,7 +11,7 @@ export default {
       { hid: "description", name: "description", content: "" }
     ],
     link: [
-      { rel: "icon", type: "image/png", href: "/triangle.png" },
+      { rel: "icon", type: "image/png", href: "/computer.png" },
       {
         rel: "stylesheet",
         href: "https://use.typekit.net/kph4cvz.css"
