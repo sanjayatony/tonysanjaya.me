@@ -13,6 +13,13 @@ module.exports = {
       bit: ["lores-12", "sans-serif"],
       bitwide: ["lores-9-plus-wide", "sans-serif"]
     },
+    aspectRatio: {
+      none: 0,
+      square: [1, 1],
+      "16/9": [16, 9],
+      "4/3": [4, 3],
+      "21/9": [21, 9]
+    },
     extend: {
       colors: {
         80: {
@@ -31,7 +38,11 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("tailwindcss-responsive-embed"),
+    require("tailwindcss-aspect-ratio")
+  ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === "production",

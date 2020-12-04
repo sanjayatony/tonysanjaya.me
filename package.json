@@ -12,7 +12,8 @@
     "@nuxt/content": "^1.9.0",
     "@tailwindcss/typography": "^0.3.1",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "tailwindcss-responsive-embed": "^1.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.1.0",
