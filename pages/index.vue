@@ -2,8 +2,8 @@
   <div class="max-w-5xl mx-auto px-4">
     <section class="text-white font-mono text-center max-w-xl mx-auto mb-16">
       <p class="pt-16 pb-10 text-lg">
-        Web / Front-end / Back-end Developer / Enginner or what ever it's name.
-        Bottom line, I built awesome websites and everything in between.
+        Web / Front-end / Back-end Developer / Enginner or what ever it's
+        called. Bottom line, I built awesome websites and everything around it.
       </p>
       <div>
         <a
@@ -91,7 +91,7 @@ export default {
     const posts = await $content("post")
       .sortBy("date", "desc")
       .fetch();
-    console.log(posts);
+    //console.log(posts);
     return { posts };
   },
   methods: {
@@ -99,6 +99,19 @@ export default {
       const options = { year: "numeric", month: "short", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
     }
+  },
+  head() {
+    return {
+      title: "Tony Sanjaya",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+        }
+      ]
+    };
   }
 };
 </script>
