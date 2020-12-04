@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-xs mb-6">
       <nuxt-link
-        to="/"
+        to="/#posts"
         class="text-80-yellow hover:text-white font-bitwide font-bold uppercase"
       >
         <svg

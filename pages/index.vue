@@ -64,7 +64,7 @@
         fill="currentColor"
       />
     </svg>
-    <section class="py-20 max-w-xl mx-auto">
+    <section id="posts" class="py-20 max-w-xl mx-auto">
       <h2 class="font-head italic font-bold text-3xl text-white mb-4">
         Random Thoughts
       </h2>
