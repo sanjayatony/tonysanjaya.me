@@ -25,7 +25,8 @@
     @apply text-white font-head italic;
   }
   .prose p,
-  .prose li {
+  .prose li,
+  .prose strong {
     @apply text-white font-mono;
   }
 
