@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center py-6 mt-20">
+  <div class="text-center pt-6 pb-2 mt-20">
     <svg
       class="w-64 h-64 mx-auto text-white mb-10"
       xmlns="http://www.w3.org/2000/svg"
