@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-5xl mx-auto px-4">
+  <div class="container mx-auto px-4">
     <section class="text-white font-mono text-center max-w-xl mx-auto mb-16">
       <p class="pt-16 pb-10 text-lg">
         Web / Front-end / Back-end Developer / Enginner or what ever it's
@@ -46,8 +46,8 @@
             class="bg-gradient-to-br from-80-pink to-80-purple-neon hover:from-80-purple-neon hover:to-80-pink p-1 rounded"
           >
             <img
-              :src="require(`../assets/img/${project.img}`)"
-              class="object-cover w-full h-48 rounded shadow-lg"
+              :src="project.img"
+              class="object-cover w-full h-64 rounded shadow-lg"
             />
           </a>
           <h2 class="text-white my-2 font-mono">{{ project.title }}</h2>
@@ -146,7 +146,8 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: "assets/img/cover.png"
+          content:
+            "https://ik.imagekit.io/6qqnfr3a1sk/post/cover-tony_CXv059roitXP.png"
         },
         {
           hid: "tw-card",
@@ -167,7 +168,8 @@ export default {
         {
           hid: "tw-image",
           property: "tw:image",
-          content: "assets/img/cover.png"
+          content:
+            "https://ik.imagekit.io/6qqnfr3a1sk/post/cover-tony_CXv059roitXP.png"
         }
       ]
     };
