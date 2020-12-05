@@ -121,6 +121,53 @@ export default {
           name: "description",
           content:
             "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+        },
+        {
+          hid: "og-type",
+          property: "og:type",
+          content: "website"
+        },
+        {
+          hid: "og-url",
+          property: "og:url",
+          content: "website"
+        },
+        {
+          hid: "og-title",
+          property: "og:title",
+          content: "Tony Sanjaya"
+        },
+        {
+          hid: "og-description",
+          property: "og:description",
+          content:
+            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+        },
+        {
+          hid: "og-image",
+          property: "og:image",
+          content: "~/assets/img/cover.png"
+        },
+        {
+          hid: "tw-card",
+          property: "tw:card",
+          content: "summary_large_image"
+        },
+        {
+          hid: "tw-title",
+          property: "tw:title",
+          content: "Tony Sanjaya"
+        },
+        {
+          hid: "tw-description",
+          property: "tw:description",
+          content:
+            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+        },
+        {
+          hid: "tw-image",
+          property: "tw:image",
+          content: "~/assets/img/cover.png"
         }
       ]
     };
