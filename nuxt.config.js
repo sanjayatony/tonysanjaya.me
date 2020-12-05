@@ -31,13 +31,18 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-analytics"
   ],
+  googleAnalytics: {
+    id: "UA-164131350-1"
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
+    "@nuxtjs/robots"
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
