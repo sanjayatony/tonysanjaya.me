@@ -7,7 +7,8 @@
       </p>
       <div>
         <a
-          href="mailto:sanjayatony@gmail.com"
+          href="https://www.upwork.com/fl/tsanjaya"
+          target="_blank"
           class="inline-block px-8 py-3 rounded font-head font-bold italic uppercase text-2xl bg-gradient-to-br from-80-pink to-80-purple-neon hover:from-80-purple-neon hover:to-80-pink"
           >Hire Me via Upwork</a
         >
