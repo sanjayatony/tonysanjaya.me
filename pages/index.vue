@@ -27,30 +27,38 @@
         fill="currentColor"
       />
     </svg>
-    <section class="pt-20">
+    <section id="projects" class="py-20">
       <h2
         class="font-head italic font-bold text-3xl text-white mb-4 text-center"
       >
         Projects
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-8">
-        <div class="flex flex-col items-center justify-center">
-          <a href="#">
+        <div
+          v-for="project in projects"
+          :key="project.slug"
+          class="flex flex-col items-center justify-center"
+        >
+          <a
+            :href="project.url"
+            target="_blank"
+            class="bg-gradient-to-br from-80-pink to-80-purple-neon hover:from-80-purple-neon hover:to-80-pink p-1 rounded"
+          >
             <img
-              src="https://picsum.photos/seed/picsum/800/500"
-              class="rounded"
+              :src="require(`../assets/img/${project.img}`)"
+              class="object-cover w-full h-48 rounded shadow-lg"
             />
           </a>
-          <h2 class="text-white mt-2 font-mono">Lorem Ipsum</h2>
-          <span class="text-black font-mono text-xs bg-80-yellow px-1">
-            WordPress
-          </span>
-        </div>
-        <div>
-          <img src="https://picsum.photos/seed/picsum/800/500" />
-        </div>
-        <div>
-          <img src="https://picsum.photos/seed/picsum/800/500" />
+          <h2 class="text-white my-2 font-mono">{{ project.title }}</h2>
+          <div class="flex flow-wrap">
+            <span
+              v-for="tag in project.tags"
+              :key="tag"
+              class="text-black font-mono text-xs bg-80-yellow px-1 mr-2"
+            >
+              {{ tag }}
+            </span>
+          </div>
         </div>
       </div>
     </section>
@@ -91,7 +99,11 @@ export default {
     const posts = await $content("post")
       .sortBy("date", "desc")
       .fetch();
-    return { posts };
+    const projects = await $content("project")
+      .sortBy("order", "asc")
+      .limit(3)
+      .fetch();
+    return { posts, projects };
   },
   methods: {
     formatDate(date) {
