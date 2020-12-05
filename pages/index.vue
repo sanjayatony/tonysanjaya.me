@@ -2,7 +2,7 @@
   <div class="container mx-auto px-4">
     <section class="text-white font-mono text-center max-w-xl mx-auto mb-16">
       <p class="pt-16 pb-10 text-lg">
-        Web / Front-end / Back-end Developer / Enginner or what ever it's
+        Web / Front-end / Back-end Developer / Engineer or what ever it's
         called. Bottom line, I built awesome websites and everything around it.
       </p>
       <div>
@@ -120,7 +120,7 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+            "Web / Front-end / Back-end Developer / Engineer or what ever it's name. Bottom line, I built awesome websites and everything in between."
         },
         {
           hid: "og-type",
@@ -141,7 +141,7 @@ export default {
           hid: "og-description",
           property: "og:description",
           content:
-            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+            "Web / Front-end / Back-end Developer / Engineer or what ever it's name. Bottom line, I built awesome websites and everything in between."
         },
         {
           hid: "og-image",
@@ -163,7 +163,7 @@ export default {
           hid: "tw-description",
           property: "tw:description",
           content:
-            "Web / Front-end / Back-end Developer / Enginner or what ever it's name. Bottom line, I built awesome websites and everything in between."
+            "Web / Front-end / Back-end Developer / Engineer or what ever it's name. Bottom line, I built awesome websites and everything in between."
         },
         {
           hid: "tw-image",
