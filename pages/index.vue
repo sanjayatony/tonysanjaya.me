@@ -147,7 +147,7 @@ export default {
           hid: "og-image",
           property: "og:image",
           content:
-            "https://ik.imagekit.io/6qqnfr3a1sk/post/Screen_Shot_2020-12-05_at_23.03.30_1RTwx7oKf6N.png"
+            "https://ik.imagekit.io/6qqnfr3a1sk/post/Screen_Shot_2020-12-05_at_23.06.12_Y2UDKD_UlW-.png"
         },
         {
           hid: "tw-card",
@@ -169,7 +169,7 @@ export default {
           hid: "tw-image",
           property: "tw:image",
           content:
-            "https://ik.imagekit.io/6qqnfr3a1sk/post/Screen_Shot_2020-12-05_at_23.03.30_1RTwx7oKf6N.png"
+            "https://ik.imagekit.io/6qqnfr3a1sk/post/Screen_Shot_2020-12-05_at_23.06.12_Y2UDKD_UlW-.png"
         }
       ]
     };
