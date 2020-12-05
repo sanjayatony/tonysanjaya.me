@@ -146,7 +146,7 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: "~/assets/img/cover.png"
+          content: "assets/img/cover.png"
         },
         {
           hid: "tw-card",
@@ -167,7 +167,7 @@ export default {
         {
           hid: "tw-image",
           property: "tw:image",
-          content: "~/assets/img/cover.png"
+          content: "assets/img/cover.png"
         }
       ]
     };
